@@ -1,6 +1,6 @@
 import java.util.TreeSet;
 import java.util.List;
-
+//treeset give no duplicate with default ascending order
 public class Treeset{
     public static void main(String[] args) {
 List<Integer> list1 = List.of(50,20,40,10,30);

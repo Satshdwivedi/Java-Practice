@@ -1,5 +1,6 @@
 import java.util.Queue;
 import java.util.LinkedList;
+//queue is first in first out
 public class Queue1{
     public static void main(String[] args) {
         Queue<Integer>q=new LinkedList<>();

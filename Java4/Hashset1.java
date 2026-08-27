@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.List;
-
+// find common no/element in both list
 public class Hashset1{
     public static void main(String[] args) {
 List<Integer> list1 = List.of(10, 20, 30, 40, 50);
