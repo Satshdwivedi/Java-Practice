@@ -1,5 +1,5 @@
 import java.util.HashMap;
-//import java.util.Map;
+//import java.util.Map; isko both only map and map + lambda dono se ker sakte hai 
 public class Hashmap1{
     public static void main(String[]args){
     HashMap<Integer,String>b=new HashMap<>();
@@ -11,5 +11,12 @@ public class Hashmap1{
      }*/
     b.forEach((key,value)->System.out.println(key+" "+value)); 
     
+    
+    for(Integer k:b.keySet()){
+        System.out.print(k+" ");
+    }
+    for(String v:b.values()){
+        System.out.print("\n"+v+" ");
+    }
  }
 }
