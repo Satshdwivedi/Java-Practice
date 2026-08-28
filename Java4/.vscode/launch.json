@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Duration1",
+            "request": "launch",
+            "mainClass": "Duration1",
+            "projectName": "Java4_8ca83289"
+        },
+        {
+            "type": "java",
+            "name": "Period1",
+            "request": "launch",
+            "mainClass": "Period1",
+            "projectName": "Java4_8ca83289"
+        },
+        {
+            "type": "java",
+            "name": "DDMMYY",
+            "request": "launch",
+            "mainClass": "DDMMYY",
+            "projectName": "Java4_8ca83289"
+        },
+        {
+            "type": "java",
+            "name": "DateTime",
+            "request": "launch",
+            "mainClass": "DateTime",
+            "projectName": "Java4_8ca83289"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
